@@ -1,0 +1,118 @@
+body, input, button, form {
+    font-size: 18px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+input[type="submit"] {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+input[type="text"] {
+    width: 584px; 
+    height: 44px;
+    background-color: #fff;
+    background-position: 10px 10px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    padding-left: 40px;
+    color: rgb(32, 33, 36)
+
+  
+    
+}
+
+input[type="text"]:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+input[type=text]:focus {
+  outline: none;
+}
+
+.text_image_class {
+	color: blueviolet;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: relative;
+    left: 455px;
+    bottom: 0;
+    white-space: nowrap;
+}
+
+#images_adSearch_container {
+				display: grid;
+				grid-column-gap: 1px; 
+				grid-row-gap: 10px;
+				grid-template-columns: auto 100px 150px;
+				padding: 2px;
+			}
+
+			.images_adSearch_container_item {
+				background: white;
+				padding: 10px;
+				text-align: right;
+			}
+
+			.images_adSearch_container_item > a {
+				font-size: 14px;
+				color: #202124;
+				text-decoration: none;
+
+			}
+
+			.images_adSearch_container_item > a:hover {
+				font-size: 14px;
+				color: #202124;
+				text-decoration: underline;
+
+			}
+
+
+
+#google_logo_container {
+				display: grid;
+				grid-column-gap: 10px; 
+				grid-row-gap: 10px;
+				grid-template-columns: auto 252px auto
+				padding: 20px;
+			}
+
+			.google_logo_container_item {
+				background: white;
+				text-align: center;
+			}
+
+#contenedor_grid_bar {
+				display: grid;
+				grid-column-gap: 10px; 
+				grid-row-gap: 20px;
+				padding:  10px;
+				grid-template-columns: auto
+				
+			}
+.contenedor_grid_bar_item {
+				background: white;
+				text-align: center;
+				padding:  20px;
+			}
+
+
+
+
+
+
+			
